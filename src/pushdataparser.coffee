@@ -1,5 +1,5 @@
 Q   = require 'q'
-log = require 'bog'
+log = require 'console'
 
 findNextLf = (buf, start) ->
     i = start

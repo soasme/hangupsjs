@@ -1,4 +1,4 @@
-log     = require 'bog'
+log     = require 'console'
 request = require 'request'
 Q       = require 'q'
 

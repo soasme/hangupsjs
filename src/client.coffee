@@ -3,7 +3,7 @@ FileCookieStore = require 'tough-cookie-filestore'
 {CookieJar}     = require 'tough-cookie'
 {EventEmitter}  = require 'events'
 syspath         = require 'path'
-log             = require 'bog'
+log             = require 'console'
 fs              = require 'fs'
 Q               = require 'q'
 
@@ -62,7 +62,7 @@ module.exports = class Client extends EventEmitter
         # clientid comes as part of pushdata
         @on 'clientid', (clientid) => @init.clientid = clientid
 
-    loglevel: (lvl) -> log.level lvl
+    loglevel: (lvl) -> log.debug lvl
 
     connect: (creds) ->
         # tell the world what we're doing

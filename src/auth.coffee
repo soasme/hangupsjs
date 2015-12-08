@@ -1,6 +1,6 @@
 Cookie   = require('tough-cookie').Cookie
 request  = require 'request'
-log      = require 'bog'
+log      = require 'console'
 Q        = require 'q'
 fs       = require 'fs'
 

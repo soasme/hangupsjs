@@ -1,4 +1,4 @@
-log = require 'bog'
+log = require 'console'
 Q   = require 'q'
 
 {tryparse} = require './util'

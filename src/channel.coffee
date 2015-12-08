@@ -2,7 +2,7 @@ require('fnuc').expose global
 {CookieJar} = require 'tough-cookie'
 request = require 'request'
 crypto  = require 'crypto'
-log     = require 'bog'
+log     = require 'console'
 Q       = require 'q'
 
 {req, find, wait, NetworkError, fmterr} = require './util'

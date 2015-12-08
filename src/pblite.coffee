@@ -1,4 +1,4 @@
-log = require 'bog'
+log = require 'console'
 require('fnuc').expose global
 
 # A field can hold any value
