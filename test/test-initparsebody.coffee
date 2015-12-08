@@ -1,4 +1,4 @@
-fs = require 'fs'
+fs = require 'browserify-fs'
 {assert} = require('chai')
 deql = assert.deepEqual
 

@@ -1,7 +1,7 @@
 request = require 'request'
 log     = require 'console'
 Q       = require 'q'
-fs      = require 'fs'
+fs      = require 'browserify-fs'
 syspath = require 'path'
 
 {req, find, uniqfn, NetworkError} = require './util'

@@ -2,7 +2,7 @@ Cookie   = require('tough-cookie').Cookie
 request  = require 'request'
 log      = require 'console'
 Q        = require 'q'
-fs       = require 'fs'
+fs       = require 'browserify-fs'
 
 {plug, req, NetworkError} = require './util'
 

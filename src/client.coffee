@@ -4,7 +4,7 @@ FileCookieStore = require 'tough-cookie-filestore'
 {EventEmitter}  = require 'events'
 syspath         = require 'path'
 log             = require 'console'
-fs              = require 'fs'
+fs              = require 'browserify-fs'
 Q               = require 'q'
 
 {plug, fmterr, wait} = require './util'

@@ -23,6 +23,7 @@
   "homepage": "https://github.com/algesten/hangupsjs",
   "dependencies": {
     "bog": "^1.0.0",
+    "browserify-fs": "^1.0.0",
     "fnuc": "0.0.15",
     "q": "^1.2.0",
     "request": "^2.58.0",
